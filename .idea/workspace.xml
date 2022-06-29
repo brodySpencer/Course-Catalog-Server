@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="446c3653-0232-4fd4-8b16-2fb54d90be83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core_databind.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/xerial_sqlite_jdbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestApplication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/CourseCatalogDB.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/CatalogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DBException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/PreReqDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handlers/CatalogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handlers/CourseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handlers/CourseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handlers/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handlers/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CatalogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PreReqService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CatalogDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CourseDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/PreReqDaoTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ALV9P2kqaLbbSXQ6gCSIzWvuZz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Server" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="handlers.Server" />
+      <module name="RestApplication" />
+      <option name="PROGRAM_PARAMETERS" value="0121" />
+      <option name="VM_PARAMETERS" value="-Djava.util.logging.config.file=logging.properties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CatalogDaoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Djava.util.logging.config.file=logging.properties" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogDaoTest.addCourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CatalogDaoTest" />
+      <option name="METHOD_NAME" value="addCourseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseDaoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CourseDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreReqDaoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PreReqDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreReqDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PreReqDaoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Djava.util.logging.config.file=logging.properties" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="JUnit.CourseDaoTest (1)" />
+      <item itemvalue="JUnit.PreReqDaoTest (1)" />
+      <item itemvalue="JUnit.PreReqDaoTest" />
+      <item itemvalue="JUnit.CatalogDaoTest" />
+      <item itemvalue="JUnit.CatalogDaoTest.addCourseTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourseDaoTest (1)" />
+        <item itemvalue="JUnit.PreReqDaoTest (1)" />
+        <item itemvalue="JUnit.PreReqDaoTest" />
+        <item itemvalue="JUnit.CatalogDaoTest" />
+        <item itemvalue="JUnit.CatalogDaoTest.addCourseTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="446c3653-0232-4fd4-8b16-2fb54d90be83" name="Changes" comment="" />
+      <created>1654788703522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654788703522</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/handlers/CourseHandler.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/handlers/CourseHandler.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
